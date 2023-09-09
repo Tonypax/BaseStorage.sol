@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-import {INiftyKitAppRegistry} from "../interfaces/INiftyKitAppRegistry.sol";
-import {INiftyKitV3} from "../interfaces/INiftyKitV3.sol";
+import "https://github.com/Tonypax/INiftyKitAppRegistry.sol/blob/main/INiftyKitAppRegistry.sol";
+import "https://github.com/Tonypax/INiftyKitV3.sol/blob/main/INiftyKitV3.sol";
 
 library BaseStorage {
     enum Transfer {
